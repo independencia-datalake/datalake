@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+{% block title %}Inicio Farmacia{% endblock %}
+
+{% block styles %}
+<link href="core/css/datalake.css3" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="container contenedor-wrap">  
+  <div class="botonera" style="background-color: white">
+    <h1>Farmacia</h1> 
+    <div class="botones">
+      <a href="{% url 'comprobanteventa-inicio' %}">Venta</a>
+      <a href="{% url 'productofarmacia-inicio' %}">Productos</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block script %} 
+{% endblock %}

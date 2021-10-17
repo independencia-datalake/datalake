@@ -1,0 +1,22 @@
+{% extends 'core/base.html' %}
+{% block title %}Inicio{% endblock %}
+
+{% block styles %}
+<link href="core/css/datalake.css3" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="container contenedor-wrap">  
+  <div class="botonera" style="background-color: white">
+    <h1>Departamentos</h1> 
+    <div class="botones">
+      <a href="{% url 'farmacia-home' %}">Farmacia</a>
+      <a href="{% url 'dimap-home' %}">DIMAP</a>
+      <a href="{% url 'seguridad-home' %}">Seguridad Municipal</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block script %} 
+{% endblock %}
