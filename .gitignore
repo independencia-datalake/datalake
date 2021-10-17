@@ -128,4 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+#
 requirements.txt
+datalake/datalake_db
+datalake/datalake_uwsgi.ini
+datalake/uwsgi_params
+datalake/wsgi.py
+datalake/datalake/settings.py
